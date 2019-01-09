@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="Mesaje" />
+        <item
+            android:id="@+id/camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Poze" />
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Galerie" />
+        <item
+            android:id="@+id/send"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Trimite" />
+
+    </group>
+    <item android:title="Media">
+        <menu>
+            <item
+                android:id="@+id/slide_show"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Slide" />
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>
